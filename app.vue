@@ -7,7 +7,7 @@
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg><span class="sr-only">Time Display</span></a>
     </header>
-    <main class="flex-1 py-12 md:py-24 lg:py-32 xl:py-48">
+    <main class="flex flex-col items-center py-12 md:py-24 lg:py-32 xl:py-48">
       <div class="container px-4 md:px-6">
         <div class="flex flex-col items-center space-y-4 gap-4 text-center">
           <div class="space-y-2">
