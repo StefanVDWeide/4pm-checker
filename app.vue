@@ -74,7 +74,7 @@ const isTimeBetween4PMandMidnight = (strTime: string): boolean => {
 
   if (!timePart) return false;
 
-  const time = new Date('1970-01-01 ' + timePart);
+  const time = new Date('1970/01/01 ' + timePart);
   const hours = time.getHours();
 
   return hours >= 16 && hours < 24;
@@ -431,7 +431,6 @@ const getCitiesInTimezone = () => {
     'Pacific/Apia',
     'Africa/Johannesburg'
   ];
-
   aryIanaTimeZones.forEach((timeZone: string) => {
     let strTime = new Date().toLocaleString("en-US", { timeZone: `${timeZone}` });
 
